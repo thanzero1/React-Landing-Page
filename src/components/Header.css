@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px solid #4f9f42;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+}
+
+ul li {
+    margin-left: 10px ;
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+    header nav ul a {
+        font-size: 2rem;
+    }
+}
